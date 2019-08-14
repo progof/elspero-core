@@ -1,0 +1,33 @@
+# /etc/conf.d/elsperod: config file for /etc/init.d/elsperod
+
+# Config file location
+#ESCCOIND_CONFIGFILE="/etc/elspero/elspero.conf"
+
+# What directory to write pidfile to?  (created and owned by $ESCCOIND_USER)
+#ESCCOIND_PIDDIR="/var/run/elsperod"
+
+# What filename to give the pidfile
+#ESCCOIND_PIDFILE="${ESCCOIND_PIDDIR}/elsperod.pid"
+
+# Where to write elsperod data (be mindful that the blockchain is large)
+#ESCCOIND_DATADIR="/var/lib/elsperod"
+
+# User and group to own elsperod process
+#ESCCOIND_USER="elspero"
+#ESCCOIND_GROUP="elspero"
+
+# Path to elsperod executable
+#ESCCOIND_BIN="/usr/bin/elsperod"
+
+# Nice value to run elsperod under
+#ESCCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+ESCCOIND_OPTS="-disablewallet"
+
+# The timeout in seconds OpenRC will wait for elsperod to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+ESCCOIND_SIGTERM_TIMEOUT=60

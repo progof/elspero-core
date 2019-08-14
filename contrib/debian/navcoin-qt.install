@@ -1,0 +1,6 @@
+usr/local/bin/elspero-qt usr/bin
+share/pixmaps/elspero32.xpm usr/share/pixmaps
+share/pixmaps/elspero16.xpm usr/share/pixmaps
+share/pixmaps/elspero128.png usr/share/pixmaps
+debian/elspero-qt.desktop usr/share/applications
+debian/elspero-qt.protocol usr/share/kde4/services/

@@ -1,0 +1,5 @@
+Building Elspero
+
+See doc/build-*.md for instructions on building elsperod,
+the intended-for-services, no-graphical-interface, reference
+implementation of Elspero.

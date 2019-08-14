@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Elspero
+Comment=Elspero P2P Cryptocurrency
+Comment[fr]=Elspero, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Elspero, eşten eşe kriptografik sanal para birimi
+Exec=elspero-qt %u
+Terminal=false
+Type=Application
+Icon=elspero128
+MimeType=x-scheme-handler/elspero;
+Categories=Office;Finance;

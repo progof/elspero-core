@@ -1,0 +1,8 @@
+/usr/bin/elspero-cli		--	gen_context(system_u:object_r:elspero_exec_t,s0)
+/usr/sbin/elsperod		--	gen_context(system_u:object_r:elspero_exec_t,s0)
+/usr/lib(64)?/elspero/elsperod		--	gen_context(system_u:object_r:elspero_exec_t,s0)
+
+/etc/elspero(/.*)?		gen_context(system_u:object_r:elspero_conf_t,s0)
+/var/lib/elspero(/.*)?		gen_context(system_u:object_r:elspero_var_lib_t,s0)
+
+(/var)?/run/elsperod(/.*)?   gen_context(system_u:object_r:elspero_var_run_t,s0)
